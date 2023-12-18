@@ -13,6 +13,15 @@ package rev_code_4;
  * 	5- Esto se puede mejorar creando metodos para ciertas cosas, haciendo mas legible el codigo
  * 	6- Hice uso de outputs en consola, solo para saber que esta pasando.
  * 	
+ *	El programa inicia mostrando una bienvenida, seguido de eso pide por primera vez al usuario que ingrese una
+ *	de las opciones mostradas en la bienvenida. Entramos a un ciclo do (porque en estos, por lo menos se va a entrar
+ *	aunque sea 1 vez) y mostrara las reglas del juego. En caso de que el usuario no ingrese una opcion valida, el
+ *	programa le pedira al usuario que por favor ingrese una opcion valida, de no ser asi en 3 ocasiones, el programa
+ *	se cerrara. Si el usuario coloco una opcion valida entrara al juego (opcion 1) o se saldra del juego (opcion 2).
+ *	En la primera opcion tambien entramos en condicionales que se ejecutara el bloque de codigo que contenga, segun sea
+ *	la "tirada" (entiendase tirada como el que vas a poner como usuario, como si jugaras piedra, papel o tijera normalmente),
+ *	y conforme a eso entramos a otras condicionales con operadoes de comparacion y compuertas logicas para saber el resultado
+ *	En consola solo se vera la tirada de los jugadores y el numero de intentos para jugar (esto dependera de los inputs).
  *
  */
 
