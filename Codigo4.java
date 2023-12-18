@@ -86,7 +86,7 @@ public class Codigo4 {
 				System.exit(1);
 			}
 
-			// Mostrar el número de intentos (para propósitos de depuración)
+			// Mostrar el número de intentos (para salir en caso de que el usuario coloque inputs erroneos)
 			System.out.println("Contador " + contador);
 			System.out.println();
 		} while (contador != 3);
